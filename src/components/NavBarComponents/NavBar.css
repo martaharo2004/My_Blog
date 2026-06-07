@@ -1,0 +1,48 @@
+aside {
+  width: 18%;
+  background-color: var(--bg-2);
+  /*border-right: 1px solid var(--border);*/
+}
+
+.navBar {
+  background-color: var(--bg);
+  padding: 1em 0em 2em 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: left;
+  align-items: left;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  background: var(--accent-bg);
+  color: var(--text);
+  border-radius: 0px 32px 32px 0px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.nav-item:hover {
+  background: var(--accent);
+  color: var(--text-h);
+}
+
+.nav-item span {
+  font-size: 17px;
+  font-family: var(--font-sans);
+}
+.nav-item span:hover {
+    
+}
+
+.nav-item i {
+  color: var(--text);
+  font-size: 18px;
+}
