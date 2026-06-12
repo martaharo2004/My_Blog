@@ -1,16 +1,14 @@
-
+.blog-post {
+    flex: 1;
+    min-width: 0;              
+    background-color: var(--bg);
+    padding: 2rem;
+    overflow-y: auto;
+    text-align: left;
+}
 
 .blog-title {
-  color: var(--text-h);
-  font-size: 1.2rem;
-  margin: 0;
+    color: var(--text-h);
+    font-size: 1.2rem;
+    margin: 0;
 }
-
-.article {
-  flex: 1;
-  background-color: var(--bg);
-  padding: 2em;
-  border-left: 1px solid var(--border);
-  border-right: 1px solid var(--border);
-}
-

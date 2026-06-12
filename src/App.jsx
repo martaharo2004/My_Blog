@@ -3,13 +3,22 @@ import { useState } from 'react'
 import { Header } from './components/HeaderComponents/Header.jsx'
 import { NavBar } from './components/NavBarComponents/NavBar.jsx'
 import { Footer } from './components/FooterComponents/Footer.jsx'
+import { SectionComponent } from './components/SectionComponent.jsx'
+import { IndexNav } from './components/IndexNavComponents/Indexnav.jsx'
+
+import { navItems } from './data/navItems.js'
+
 
 import './App.css'
 
 import profileImg from './assets/profile.jpg'
 
 function App() {
-  const [selected, setSelected] = useState(null)
+  const [selected, setSelected] = useState(navItems[0]);
+
+  const handleSelect = (item) => {
+    setSelected(item);
+  };
 
   return (
     <>
@@ -17,21 +26,19 @@ function App() {
       
       <section className="main-content">
         <aside className="sidebarLeft">
-          <NavBar onSelect={setSelected}/>
+          <NavBar onSelect={handleSelect}/>
         </aside>
 
         <article className="blog-post">
-          <h2 className="post-title">My First Blog Post</h2>
+          <SectionComponent selected={selected}/>
         </article>
 
         <aside className="sidebarRight">
-          <p className="sidebar-text">Sidebar Content</p>
+          <IndexNav indexNavItems={selected?.sections ?? []} />
         </aside>
-
       </section>
 
-      <Footer/>
-   
+      <Footer onSelect={handleSelect}/>
     </>
   )
 }

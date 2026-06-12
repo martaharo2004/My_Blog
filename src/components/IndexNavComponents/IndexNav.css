@@ -1,0 +1,34 @@
+.navIndev {
+  padding: 1rem;
+}
+
+.nav-index-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.nav-index-item {
+  width: 100%;
+  border-left: 2px solid transparent;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  color: var(--text);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  box-sizing: border-box;
+}
+
+.nav-index-item:hover {
+  color: var(--text-h);
+  border-left-color: var(--border);
+}
+
+.nav-index-item.active {
+  color: var(--accent);
+  font-weight: 500;
+  border-left-color: var(--accent);
+}

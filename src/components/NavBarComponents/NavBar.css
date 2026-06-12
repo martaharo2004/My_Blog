@@ -1,7 +1,9 @@
 aside {
   width: 18%;
-  background-color: var(--bg-2);
-  /*border-right: 1px solid var(--border);*/
+  background-color: var(--bg);
+  position: fixed;
+  top: 0;
+  height: 100vh;
 }
 
 .navBar {
@@ -37,9 +39,6 @@ aside {
 .nav-item span {
   font-size: 17px;
   font-family: var(--font-sans);
-}
-.nav-item span:hover {
-    
 }
 
 .nav-item i {

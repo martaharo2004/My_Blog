@@ -68,7 +68,7 @@
 body.light {
   --text: #637275;
   --text-h: #08060d;
-  --bg: #ffffff ;
+  --bg: #ffffff;
   --bg-2: #c5c6c6;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
@@ -171,7 +171,39 @@ code {
   flex: 1;
   max-width: 100%;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
+}
+
+.sidebarLeft {
+  flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-self: flex-start;
+  z-index: 10;
+}
+
+.sidebarRight {
+  flex-shrink: 0;
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  align-self: flex-start;
+  z-index: 10;
+}
+
+.blog-post {
+  flex: 1;
+  min-width: 0;
   background-color: var(--bg);
+  padding: 2rem;
+  overflow-y: auto;
+  text-align: left;
+}
+
+[id] {
+  scroll-margin-top: 60px;
 }

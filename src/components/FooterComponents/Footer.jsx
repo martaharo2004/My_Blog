@@ -8,10 +8,12 @@
 // Importamos el archivo de estilos
 import './Footer.css'
 
+import { navItems } from '../../data/navItems.js'
+
 // Importamos las imágenes
 import profileImg from '../../assets/profile.jpg'
 
-export const Footer = () => {
+export const Footer = ({onSelect}) => {
     return (
         <footer className="footer">
             <div className = "footer-top">
@@ -47,13 +49,19 @@ export const Footer = () => {
                 <div className="footer-top-right">
                     <div className="footer-list">
                         <h3 className="footer-list-title">Navegación</h3>
-                        <ul className="footer-nav">
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Lenguajes de programación</a></li>
-                            <li><a href="#">Diseño UI y UX</a></li>
-                            <li><a href="#">Diseño web y móvil</a></li>
-                            <li><a href="#">Diseño de videojuegos</a></li>
-                        </ul>
+                            <ul className="footer-nav">
+                                {navItems.map((item) => (
+                                    <li key={item.id}>
+                                        <a href="#" onClick={(e) => {
+                                            e.preventDefault()
+                                            onSelect(item)
+                                            window.scrollTo({ top: 0, behavior: 'smooth' })  // 👈
+                                        }}>
+                                            {item.label}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
                     </div>
 
                     <div className="footer-list">
