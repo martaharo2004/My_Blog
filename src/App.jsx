@@ -11,7 +11,6 @@ import { navItems } from './data/navItems.js'
 
 import './App.css'
 
-import profileImg from './assets/mh-def.png'
 
 function App() {
   const [selected, setSelected] = useState(navItems.find(item => item.id === 1));
@@ -21,6 +20,7 @@ function App() {
   }, [selected, projectTarget]);
 
   const handleSelect = (item) => {
+    document.querySelectorAll('.mobile-navigation details').forEach(menu => { menu.open = false; });
     setProjectTarget(null);
     setSelected(item);
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -31,6 +31,18 @@ function App() {
       <Header/>
       
       <section className="main-content">
+        <div className="mobile-navigation">
+          <details>
+            <summary>Secciones · {selected?.label}</summary>
+            <NavBar onSelect={handleSelect} selectedId={selected?.id} />
+          </details>
+          <details key={selected?.id} onClick={event => {
+            if (event.target.closest('.nav-index-item')) event.currentTarget.open = false;
+          }}>
+            <summary>En esta página</summary>
+            <IndexNav indexNavItems={navItems.find(item => item.id === selected?.id)?.sections ?? []} />
+          </details>
+        </div>
         <aside className="sidebarLeft">
           <NavBar onSelect={handleSelect} selectedId={selected?.id} />
         </aside>
@@ -43,7 +55,7 @@ function App() {
         </article>
 
         <aside className="sidebarRight">
-          <IndexNav indexNavItems={selected?.sections ?? []} />
+          <IndexNav indexNavItems={navItems.find(item => item.id === selected?.id)?.sections ?? []} />
         </aside>
       </section>
 

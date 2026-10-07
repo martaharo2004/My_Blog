@@ -13,7 +13,7 @@ export const InicioPage = ({ onOpenProject }) => (
    <h1>Hola, soy Marta Haro</h1>
    <h2>Diseño interfaces, desarrollo experiencias web y creo mundos interactivos.</h2>
    <p>Soy estudiante de Ingeniería Multimedia y me interesa trabajar en diseño UI/UX, desarrollo front-end y diseño de videojuegos. En este portfolio comparto mis proyectos, el proceso de creación y mi aportación en cada uno.</p>
-   <div className="home-actions"><a className="home-button" href="#destacados">Ver proyectos</a><a className="home-button secondary" href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a className="home-button secondary" href="https://glauja.itch.io" target="_blank" rel="noopener noreferrer">itch.io ↗</a><a className="home-button secondary" href="https://sketchfab.com/glauja" target="_blank" rel="noopener noreferrer">Sketchfab ↗</a><a className="home-button secondary" href="#contacto">Contactar</a></div>
+   <div className="home-actions"><a className="home-button" href="#destacados">Ver proyectos</a><a className="home-button secondary" href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a className="home-button secondary" href="https://github.com/martaharo2004" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a className="home-button secondary" href="https://glauja.itch.io" target="_blank" rel="noopener noreferrer">itch.io ↗</a><a className="home-button secondary" href="https://sketchfab.com/glauja" target="_blank" rel="noopener noreferrer">Sketchfab ↗</a><a className="home-button secondary" href="#contacto">Contactar</a></div>
   </section>
   <section id="destacados"><h2>Proyectos destacados</h2><div className="home-projects">
    {featured.map(item => {

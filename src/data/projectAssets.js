@@ -12,6 +12,7 @@ const publicUrl = path => path?.startsWith('/') ? `${import.meta.env.BASE_URL}${
 
 export const resolveProjectImages = project => ({
   ...project,
+  logo: imageUrl(project.logo),
   headerImage: imageUrl(project.headerImage),
   demoUrl: publicUrl(project.demoUrl),
   images: project.images?.map(image => ({ ...image, src: imageUrl(image.src) })),

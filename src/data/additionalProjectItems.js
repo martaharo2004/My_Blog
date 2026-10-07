@@ -4,6 +4,7 @@ export const additionalProjectItems = [
   {
     "id": 7,
     "title": "Diorama · Modelos y objetos",
+    "hidden": true,
     "subtitle": "Práctica · Animación 3D",
     "description": "Colección de modelos creados para un diorama: un conejo, un perro, un murciélago, una bola de cristal y una cuerda.",
     "tags": [
@@ -68,6 +69,7 @@ export const additionalProjectItems = [
   {
     "id": 9,
     "title": "Froslass · Modelo y pose",
+    "logo": "/projects/froslass/logo.webp",
     "models": [
       {
         "label": "Modelo",
@@ -110,6 +112,7 @@ export const additionalProjectItems = [
   {
     "id": 10,
     "title": "Kirlia · Modelo y tres poses",
+    "logo": "/projects/kirlia/logo.webp",
     "subtitle": "Práctica · Animación 3D",
     "description": "Modelo 3D de Kirlia presentado en tres poses, con texturas y renders del personaje.",
     "tags": [
@@ -167,6 +170,7 @@ export const additionalProjectItems = [
   {
     "id": 11,
     "title": "Klefki · Modelo y pose",
+    "logo": "/projects/klefki/logo.png",
     "models": [
       {
         "label": "Pose",
@@ -201,6 +205,7 @@ export const additionalProjectItems = [
   {
     "id": 12,
     "title": "LEGO Yoriichi · Modelo y tres poses",
+    "logo": "/projects/lego/logo.png",
     "subtitle": "Práctica · Animación 3D",
     "description": "Modelo 3D de LEGO Yoriichi con texturas y tres poses, presentado en renders del distrito rojo, el bosque de glicinas y un atardecer.",
     "tags": [
@@ -272,6 +277,7 @@ export const additionalProjectItems = [
   },
   {
     "id": 14,
+    "hidden": true,
     "title": "Ejercicios de rebote",
     "subtitle": "Ejercicio EX1 · Animación de rebotes",
     "description": "Ejercicios de animación de un bote vertical, un bote hacia delante y un bote con una tetera.",
@@ -497,6 +503,7 @@ export const additionalProjectItems = [
   },
   {
     "id": 19,
+    "hidden": true,
     "title": "Materiales de suelo y techo",
     "subtitle": "Práctica 2 · Arte para videojuegos",
     "description": "Dos proyectos de materiales para un suelo de clase y un techo, creados en archivos de Substance Designer.",

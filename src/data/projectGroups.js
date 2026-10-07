@@ -21,6 +21,7 @@ export const projectGroups = groups.map(group => ({
   ...group,
   projects: group.projectIds
     .map(id => projectItems.find(project => project.id === id))
+    .filter(project => project && !project.hidden)
     .sort((a, b) => dateOrder(b) - dateOrder(a)),
 }))
 

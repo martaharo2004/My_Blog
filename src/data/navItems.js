@@ -13,7 +13,9 @@ const projectSection = (id, label, groupId) => {
         id,
         label,
         projectGroupId: groupId,
-        sections: group.projects.map(project => ({ id: String(project.id), label: project.title })),
+        sections: group.projects
+            .filter(project => !project.hidden)
+            .map(project => ({ id: String(project.id), label: project.title })),
     }
 }
 

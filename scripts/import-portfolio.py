@@ -110,6 +110,11 @@ metadata={
 }
 for item in items:
     item['subtitle'],item['date']=metadata[item['id']]
+    if item['id'] in (7, 14, 19):
+        item['hidden']=True
+    project_logos={9: '/projects/froslass/logo.webp', 10: '/projects/kirlia/logo.webp', 11: '/projects/klefki/logo.png', 12: '/projects/lego/logo.png'}
+    if item['id'] in project_logos:
+        item['logo']=project_logos[item['id']]
     if item['id']==11:
         item['models']=[dict(label='Pose', id='712c5cc1075b49f0812eed49b29773fe', url='https://skfb.ly/pOGwC')]
     if item['id']==17:

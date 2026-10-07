@@ -26,6 +26,9 @@ export const Footer = ({onSelect}) => {
                     <p className="footer-description">Portfolio de Marta Haro: proyectos de diseño UI/UX, desarrollo front-end, diseño de videojuegos y animación 3D.</p>
                
                     <div className="social-links">
+                        <a href="https://github.com/martaharo2004" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub de Marta Haro" title="GitHub">
+                            <i className="ti ti-brand-github social-icon" style={{ fontSize: '1.5rem', width: '1em', height: '1em', lineHeight: 1 }} aria-hidden="true"></i>
+                        </a>
                         <a href="https://www.youtube.com/@Glauja" target="_blank" rel="noopener noreferrer" aria-label="Canal de YouTube de Glauja" title="YouTube">
                             <svg className="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M23 7a4 4 0 0 0-3-3c-3-.4-13-.4-16 0a4 4 0 0 0-3 3 30 30 0 0 0 0 10 4 4 0 0 0 3 3c3 .4 13 .4 16 0a4 4 0 0 0 3-3 30 30 0 0 0 0-10ZM10 16V8l7 4-7 4Z" />
