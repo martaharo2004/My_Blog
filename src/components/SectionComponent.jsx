@@ -1,22 +1,13 @@
 import { InicioPage } from './InicioComponents/InicioPage'
 import { ProgPage } from './ProgComponents/ProgPage'
-//import { DisenoUIUX } from './DisenoUIUX'
-//import { DisenoWebMovil } from './DisenoWebMovil'
-//import { DisenoVideojuegos } from './DisenoVideojuegos'
 import { ProjectPage } from './ProjectComponents/ProjectPage'
+import { projectGroups } from '../data/projectGroups.js'
 
-const components = {
-  1: <InicioPage />,
-  2: <ProjectPage />,
-  3: <ProgPage />,
-  
-  //3: <DisenoUIUX />,
-  //4: <DisenoWebMovil />,
-  //5: <DisenoVideojuegos />,
-}
+export const SectionComponent = ({ selected, onOpenProject }) => {
+    if (!selected) return <InicioPage onOpenProject={onOpenProject}/>
 
-export const SectionComponent = ({ selected }) => {
-    if (!selected) return <InicioPage/>
-
-    return components[selected.id] ?? <p>Sección no encontrada</p>
+    if (selected.id === 1) return <InicioPage onOpenProject={onOpenProject} />
+    if (selected.id === 3) return <ProgPage />
+    const group = projectGroups.find(group => group.id === selected.projectGroupId)
+    return group ? <ProjectPage key={group.id} group={group} title={selected.label} /> : <p>Sección no encontrada</p>
 }

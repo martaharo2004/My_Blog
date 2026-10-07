@@ -12,7 +12,7 @@ import { useState, useEffect } from 'react'
 import './Header.css'
 
 // Importamos imágenes
-import profileImg from '../../assets/profile.jpg'
+import profileImg from '../../assets/mh-def.png'
 
 export const Header = () => {
     /*
@@ -55,7 +55,7 @@ export const Header = () => {
     <header className="header">
       <div className="header-profile">
         <img src={profileImg} alt="Profile" className="profile-img" />
-        <h1 className="blog-title">Glauja_code</h1>
+        <h1 className="blog-title">Marta Haro · Portfolio</h1>
       </div>
       
       <button className="theme-toggle" onClick={toggleTheme}>

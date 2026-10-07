@@ -45,6 +45,7 @@
   align-items: center;
   gap: 1rem;
   min-width: 160px;
+  background-color: var(--bg-2);
 }
 
 .prog-item-img {

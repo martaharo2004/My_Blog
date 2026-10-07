@@ -175,7 +175,6 @@ code {
 
 .sidebarLeft {
   flex-shrink: 0;
-  border-right: 1px solid var(--border);
   overflow-y: auto;
   position: sticky;
   top: 0;
@@ -206,4 +205,10 @@ code {
 
 [id] {
   scroll-margin-top: 60px;
+}
+
+.sidebarLeft,
+.sidebarRight {
+  top: 5em; 
+  height: calc(100vh - 64px);
 }

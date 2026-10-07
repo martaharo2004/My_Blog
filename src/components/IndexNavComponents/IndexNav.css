@@ -1,5 +1,7 @@
 .navIndev {
   padding: 1rem;
+  max-height: calc(100dvh - 8rem);
+  overflow-y: auto;
 }
 
 .nav-index-list {
@@ -32,3 +34,6 @@
   font-weight: 500;
   border-left-color: var(--accent);
 }
+
+.nav-index-group { margin-top: 1rem; font-weight: 600; color: var(--text-h); }
+.nav-index-project { padding-left: 24px; }
