@@ -8,7 +8,7 @@ export const projectItems = [
   {
     id: 1,
     title: "Event Planner",
-    subtitle: "Práctica final · Proyectos Web I",
+    subtitle: "Aplicación web de gestión de eventos",
     date: "Enero 2025",
     emoji: "null",
     logo: EventPlannerLogo,
@@ -22,7 +22,7 @@ export const projectItems = [
       { icon: "device-mobile", name: "Responsive", desc: "Adaptado a todos los dispositivos" },
     ],
     notice:
-      "Proyecto de aprendizaje de 2025, no está en mantenimiento activo. Algunas funcionalidades pueden no estar operativas debido a cambios en las APIs externas desde su desarrollo.",
+      "Proyecto de 2025, no está en mantenimiento activo. Algunas funcionalidades pueden no estar operativas debido a cambios en las APIs externas desde su desarrollo.",
     videoUrl: "https://youtu.be/3AsO0MLbpzQ",
     githubUrl: "https://github.com/martaharo2004/Event-Planner---Event-calendar-Web-Page",
     itchUrl: null,
@@ -36,7 +36,7 @@ export const projectItems = [
   {
     id: 2,
     title: "Festivities Calendar",
-    subtitle: "Práctica · Proyectos Web II",
+    subtitle: "Calendario de festividades",
     date: "Febrero 2026",
     emoji: "📅",
     logo: null,
@@ -50,7 +50,7 @@ export const projectItems = [
       { icon: "brand-docker", name: "Docker", desc: "Entorno local reproducible" },
     ],
     notice:
-      "Proyecto de aprendizaje que requiere entorno local con Docker y MySQL. No está desplegado en producción. La API key de Calendarific puede haber caducado desde su desarrollo.",
+      "Proyecto que requiere entorno local con Docker y MySQL. No está desplegado en producción. La API key de Calendarific puede haber caducado desde su desarrollo.",
     videoUrl: "https://youtu.be/gtQAiQ99Xzw",
     githubUrl: "https://github.com/martaharo2004/Calendar-Festivities-Web-Page",
     itchUrl: null,
@@ -63,7 +63,7 @@ export const projectItems = [
   {
     id: 3,
     title: "Shop Manager",
-    subtitle: "Práctica · Proyectos Web III",
+    subtitle: "Gestión de tienda online",
     date: "Marzo 2026",
     emoji: "null",
     logo: LSxpressLogo,
@@ -85,7 +85,7 @@ export const projectItems = [
       { icon: "layers-subtract", name: "Vistas con layouts" },
     ],
     notice:
-      "Proyecto de aprendizaje que requiere entorno local con Docker. No está desplegado en producción.",
+      "Proyecto que requiere entorno local con Docker. No está desplegado en producción.",
     videoUrl: "https://youtu.be/dnTsV9kZM4c",
     githubUrl: "https://github.com/martaharo2004/LSxpress---Shopping-Web-Page",
     itchUrl: null,
@@ -103,7 +103,7 @@ export const projectItems = [
       label: "Ver referencia del trabajo de investigación · 2022",
       url: "https://serveiseducatius.xtec.cat/horta-guinardo/forumrecerca/mostra-de-recerca-jove-dhorta-guinardo-2022/",
     },
-    subtitle: "Práctica Final · Programación de Videojuegos",
+    subtitle: "Aventura 2D en Unity",
     date: "Octubre 2025",
     emoji: "🌹",
     logo: GuardiansLogo,
@@ -129,7 +129,7 @@ export const projectItems = [
   {
     id: 5,
     title: "The Legend of Zelda: Tears of the Kingdom Companion Móvil",
-    subtitle: "Práctica Final · Diseño y Usabilidad II",
+    subtitle: "Diseño de interfaz y prototipo interactivo",
     date: "Mayo 2023",
     emoji: "null",
     logo: TotKCompanionLogo,
@@ -157,7 +157,7 @@ export const projectItems = [
   {
     id: 6,
     title: "The Legend of Zelda: Tears of the Kingdom Companion Web",
-    subtitle: "Práctica Final · Diseño y Usabilidad II",
+    subtitle: "Diseño de interfaz y prototipo interactivo",
     date: "Mayo 2023",
     emoji: "null",
     logo: TotKCompanionLogo,

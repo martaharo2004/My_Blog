@@ -5,7 +5,7 @@ export const additionalProjectItems = [
     "id": 7,
     "title": "Diorama · Modelos y objetos",
     "hidden": true,
-    "subtitle": "Práctica · Animación 3D",
+    "subtitle": "Modelado y animación 3D",
     "description": "Colección de modelos creados para un diorama: un conejo, un perro, un murciélago, una bola de cristal y una cuerda.",
     "tags": [
       "3ds Max",
@@ -24,7 +24,7 @@ export const additionalProjectItems = [
   {
     "id": 8,
     "title": "Diorama · Escena en equipo",
-    "subtitle": "Práctica en equipo · Animación 3D",
+    "subtitle": "Animación 3D · Proyecto en equipo",
     "description": "Diorama realizado en equipo, presentado mediante cuatro renders de la escena.",
     "tags": [
       "3ds Max",
@@ -82,7 +82,7 @@ export const additionalProjectItems = [
         "url": "https://sketchfab.com/3d-models/froslass-pokemon-fan-model-pose-1-3c3639535c844151aa2beabb2c5309e5"
       }
     ],
-    "subtitle": "Práctica · Animación 3D",
+    "subtitle": "Modelado y animación 3D",
     "description": "Modelo 3D de Froslass con materiales y una pose de presentación. Incluye renders del personaje.",
     "tags": [
       "3ds Max",
@@ -113,7 +113,7 @@ export const additionalProjectItems = [
     "id": 10,
     "title": "Kirlia · Modelo y tres poses",
     "logo": "/projects/kirlia/logo.webp",
-    "subtitle": "Práctica · Animación 3D",
+    "subtitle": "Modelado y animación 3D",
     "description": "Modelo 3D de Kirlia presentado en tres poses, con texturas y renders del personaje.",
     "tags": [
       "3ds Max",
@@ -178,7 +178,7 @@ export const additionalProjectItems = [
         "url": "https://skfb.ly/pOGwC"
       }
     ],
-    "subtitle": "Práctica · Animación 3D",
+    "subtitle": "Modelado y animación 3D",
     "description": "Modelo 3D de Klefki y una pose de presentación, con materiales y renders.",
     "tags": [
       "3ds Max",
@@ -206,7 +206,7 @@ export const additionalProjectItems = [
     "id": 12,
     "title": "LEGO Yoriichi · Modelo y tres poses",
     "logo": "/projects/lego/logo.png",
-    "subtitle": "Práctica · Animación 3D",
+    "subtitle": "Modelado y animación 3D",
     "description": "Modelo 3D de LEGO Yoriichi con texturas y tres poses, presentado en renders del distrito rojo, el bosque de glicinas y un atardecer.",
     "tags": [
       "3ds Max",
@@ -242,11 +242,11 @@ export const additionalProjectItems = [
     "title": "Flexo · Animación",
     "headerIcon": "lamp-2",
     "videoLinks": [
-      { "title": "Flexo y Tetera — Una amistad extraña", "url": "https://youtu.be/40DOPXX9DNo" },
-      { "title": "Flexo y Bolet — Dos fans de Pixar", "url": "https://youtu.be/NnX7SYbQUSM" }
+      { "title": "Flexo y Tetera — Una amistad extraña", "url": "https://youtu.be/NnX7SYbQUSM" },
+      { "title": "Flexo y Bolet — Dos fans de Pixar", "url": "https://youtu.be/40DOPXX9DNo" }
     ],
-    "subtitle": "Práctica AC2 · Animación de personajes",
-    "description": "Dos ejercicios de animación de Flexo: una amistad extraña con Tetera y una escena con Bolet, dos fans de Pixar.",
+    "subtitle": "Animación de personajes",
+    "description": "Dos secuencias de animación de Flexo: una amistad extraña con Tetera y una escena con Bolet, dos fans de Pixar.",
     "tags": [
       "3ds Max",
       "Substance Painter",
@@ -279,7 +279,7 @@ export const additionalProjectItems = [
     "id": 14,
     "hidden": true,
     "title": "Ejercicios de rebote",
-    "subtitle": "Ejercicio EX1 · Animación de rebotes",
+    "subtitle": "Animación de rebotes",
     "description": "Ejercicios de animación de un bote vertical, un bote hacia delante y un bote con una tetera.",
     "tags": [
       "3ds Max",
@@ -303,8 +303,8 @@ export const additionalProjectItems = [
       { "title": "Fry y el Slurm de la suerte — Animación 3D", "url": "https://youtu.be/nNulPmTz4DE" }
     ],
     "notice": "Ninguno de los modelos de esta escena es de mi autoría. Mi trabajo en este proyecto es la animación, el rigging y la iluminación.",
-    "subtitle": "Examen · Animación de personajes",
-    "description": "Ejercicio de animación con Fry, acompañado de renders de distintas poses y una presentación con Slurm.",
+    "subtitle": "Animación de personajes",
+    "description": "Animación con Fry, acompañado de renders de distintas poses y una presentación con Slurm.",
     "tags": [
       "3ds Max",
       "Animación 3D",
@@ -352,7 +352,7 @@ export const additionalProjectItems = [
       { "title": "Toon Link — Salto", "url": "https://youtu.be/YxfZkWX-xe0" }
     ],
     "headerImage": "/projects/toon/triforce.svg",
-    "subtitle": "Práctica · Animación de personajes",
+    "subtitle": "Animación de personajes",
     "description": "Personaje Toon Link presentado en cinco poses y varias secuencias de animación, incluida una acción de diez segundos.",
     "tags": [
       "3ds Max",
@@ -434,8 +434,8 @@ export const additionalProjectItems = [
       { "title": "Max — Pruebas de rigging, movimiento y expresiones", "url": "https://youtu.be/itFDh8lnXZk" }
     ],
     "emoji": "🐰",
-    "subtitle": "Práctica · Animación de personajes",
-    "description": "Práctica de rigging con CAT y animación de Max y los tentáculos, con renders y dos vídeos de las escenas.",
+    "subtitle": "Animación de personajes",
+    "description": "Rigging con CAT y animación de Max y los tentáculos, con renders y dos vídeos de las escenas.",
     "tags": [
       "3ds Max",
       "CAT",
@@ -482,7 +482,7 @@ export const additionalProjectItems = [
       { "label": "Modelo", "id": "929934c4364440d198d77727828bc466", "url": "https://skfb.ly/pOG9p" }
     ],
     "emoji": "🎮",
-    "subtitle": "Práctica 1 · Arte para videojuegos",
+    "subtitle": "Modelado 3D y texturizado PBR",
     "description": "Modelo 3D de una Game Boy con UV y mapas de albedo, normales, oclusión, emisión y acabado metálico.",
     "tags": [
       "3ds Max",
@@ -505,7 +505,7 @@ export const additionalProjectItems = [
     "id": 19,
     "hidden": true,
     "title": "Materiales de suelo y techo",
-    "subtitle": "Práctica 2 · Arte para videojuegos",
+    "subtitle": "Materiales procedurales",
     "description": "Dos proyectos de materiales para un suelo de clase y un techo, creados en archivos de Substance Designer.",
     "tags": [
       "Substance Designer",
@@ -526,7 +526,7 @@ export const additionalProjectItems = [
     "id": 20,
     "title": "Aldea Vikinga Encantada",
     "emoji": "🏠",
-    "subtitle": "Práctica 3 · Arte para videojuegos",
+    "subtitle": "Diseño de nivel y ambientación",
     "description": "Escenario nocturno de un pueblo rodeado de montañas, con cristales luminosos y luciérnagas. La demo permite explorar libremente el entorno.",
     "tags": [
       "Unity",
@@ -556,7 +556,7 @@ export const additionalProjectItems = [
     "id": 21,
     "title": "Explosión estilizada",
     "emoji": "💥",
-    "subtitle": "Práctica 4 · Arte para videojuegos",
+    "subtitle": "Efectos visuales en Unity",
     "description": "Demo de una explosión estilizada con partículas, shaders y animación. Presentada con una cámara cercana y un fondo gris azulado.",
     "tags": [
       "Unity",

@@ -47,13 +47,13 @@ picture(i,s/'Klefki.png',d,'Render de Klefki')
 i,s,d=project('lego','LEGO Yoriichi · Modelo y tres poses','Personaje 3D','Modelo 3D de LEGO Yoriichi con texturas y tres poses, presentado en renders del distrito rojo, el bosque de glicinas y un atardecer.',['3ds Max','Modelado 3D','Texturas','Poses'], 'Animacion/LEGO - copia')
 for f,label in [('Lego_RedLightDistrict.jpg','LEGO Yoriichi · Pose 1'),('LEGO_Wisteria.jpg','LEGO Yoriichi · Pose 2'),('world_sunset_beauty_sunrise_one_nikon_war_calm-479345.jpg','LEGO Yoriichi · Pose 3')]: picture(i,s/f,d,label)
 i,s,d=project('flexo','Flexo · Animación','Práctica AC2','Dos ejercicios de animación de un flexo: una secuencia individual y otra con una tetera.',['3ds Max','Animación 3D'], 'Animacion Personajes/AC2_martaharo/AC2_martaharo')
-i['description']='Dos ejercicios de animación de Flexo: una amistad extraña con Tetera y una escena con Bolet, dos fans de Pixar.'
+i['description']='Dos secuencias de animación de Flexo: una amistad extraña con Tetera y una escena con Bolet, dos fans de Pixar.'
 i['headerIcon']='lamp-2'
 i['tags']=['3ds Max','Substance Painter','Iluminación','Rigging','Animación 3D']
-i['videoLinks']=[{'title':'Flexo y Tetera — Una amistad extraña','url':'https://youtu.be/40DOPXX9DNo'},{'title':'Flexo y Bolet — Dos fans de Pixar','url':'https://youtu.be/NnX7SYbQUSM'}]
+i['videoLinks']=[{'title':'Flexo y Tetera — Una amistad extraña','url':'https://youtu.be/NnX7SYbQUSM'},{'title':'Flexo y Bolet — Dos fans de Pixar','url':'https://youtu.be/40DOPXX9DNo'}]
 for f,label in [('flexo_martaharo.mov','Animación del flexo'),('flexo_tetera_martaharo.mov','Flexo y tetera')]: video(i,s/f,d,label)
 i,s,d=project('rebotes','Ejercicios de rebote','Práctica EX1','Ejercicios de animación de un bote vertical, un bote hacia delante y un bote con una tetera.',['3ds Max','Animación 3D'], 'Animacion Personajes/EX_1_MartaHaro/EX_1_MartaHaro')
-i,s,d=project('fry','Fry · Animación y renders','Examen de animación · Enero 2026','Ejercicio de animación con Fry, acompañado de renders de distintas poses y una presentación con Slurm.',['3ds Max','Animación 3D','Render','Fan art'], 'Animacion Personajes/Marta_Haro_Examen25-01-26/Marta_Haro_Examen25-01-26')
+i,s,d=project('fry','Fry · Animación y renders','Examen de animación · Enero 2026','Animación con Fry, acompañado de renders de distintas poses y una presentación con Slurm.',['3ds Max','Animación 3D','Render','Fan art'], 'Animacion Personajes/Marta_Haro_Examen25-01-26/Marta_Haro_Examen25-01-26')
 i['notice']='Ninguno de los modelos de esta escena es de mi autoría. Mi trabajo en este proyecto es la animación, el rigging y la iluminación.'
 i['videoLinks']=[{'title':'Fry y el Slurm de la suerte — Animación 3D','url':'https://youtu.be/nNulPmTz4DE'}]
 i['emoji']='🥫'
@@ -70,7 +70,7 @@ i['videoLinks'][5]['url']='https://youtu.be/YxfZkWX-xe0'
 for n in range(1,6): picture(i,s/f'Presentation_Render_{n}.jpg',d,f'Toon Link · Pose {n}')
 video(i,s/'Action_10sec_Video.mov',d,'Toon · Secuencia de diez segundos')
 for n in range(1,6): video(i,s/f'Action_{n}_VideoSound.mov',d,f'Toon · Acción {n}')
-i,s,d=project('max-cat','Max y los tentáculos · Rigging CAT','Práctica de rigging y animación','Práctica de rigging con CAT y animación de Max y los tentáculos, con renders y dos vídeos de las escenas.',['3ds Max','CAT','Rigging','Animación 3D'], 'Animacion Personajes/Rigging-CAT-3_marta-haro/Rigging-CAT-3_marta-haro')
+i,s,d=project('max-cat','Max y los tentáculos · Rigging CAT','Práctica de rigging y animación','Rigging con CAT y animación de Max y los tentáculos, con renders y dos vídeos de las escenas.',['3ds Max','CAT','Rigging','Animación 3D'], 'Animacion Personajes/Rigging-CAT-3_marta-haro/Rigging-CAT-3_marta-haro')
 i['emoji']='🐰'
 i['tags']=['3ds Max','CAT','Rigging','Substance Painter','Iluminación','Animación 3D']
 i['videoLinks']=[{'title':'Max y los tentáculos — Un caradura contra el plan maligno','url':'https://youtu.be/QTerSIreQIA'},{'title':'Max — Pruebas de rigging, movimiento y expresiones','url':'https://youtu.be/itFDh8lnXZk'}]
@@ -92,21 +92,21 @@ video(i,s/'Art4_Video.mp4',d,'Explosión estilizada · Tres repeticiones')
 shutil.copytree(s/'Art4/BuildWebGL',d/'demo',dirs_exist_ok=True); i['demoUrl']=f'/projects/{d.name}/demo/index.html'
 
 metadata={
-    7: ('Práctica · Animación 3D','Mayo 2024'),
-    8: ('Práctica en equipo · Animación 3D','Mayo 2024'),
-    9: ('Práctica · Animación 3D','Junio 2024'),
-    10: ('Práctica · Animación 3D','Marzo 2024'),
-    11: ('Práctica · Animación 3D','Junio 2024'),
-    12: ('Práctica · Animación 3D','2023'),
-    13: ('Práctica AC2 · Animación de personajes','Octubre 2025'),
-    14: ('Ejercicio EX1 · Animación de rebotes','Septiembre 2025'),
-    15: ('Examen · Animación de personajes','Enero 2026'),
-    16: ('Práctica · Animación de personajes','Diciembre 2025'),
-    17: ('Práctica · Animación de personajes','Noviembre 2025'),
-    18: ('Práctica 1 · Arte para videojuegos','Noviembre 2024'),
-    19: ('Práctica 2 · Arte para videojuegos','Diciembre 2024'),
-    20: ('Práctica 3 · Arte para videojuegos','Marzo 2025'),
-    21: ('Práctica 4 · Arte para videojuegos','Mayo 2025'),
+    7: ('Modelado y animación 3D','Mayo 2024'),
+    8: ('Animación 3D · Proyecto en equipo','Mayo 2024'),
+    9: ('Modelado y animación 3D','Junio 2024'),
+    10: ('Modelado y animación 3D','Marzo 2024'),
+    11: ('Modelado y animación 3D','Junio 2024'),
+    12: ('Modelado y animación 3D','2023'),
+    13: ('Animación de personajes','Octubre 2025'),
+    14: ('Animación de rebotes','Septiembre 2025'),
+    15: ('Animación de personajes','Enero 2026'),
+    16: ('Animación de personajes','Diciembre 2025'),
+    17: ('Animación de personajes','Noviembre 2025'),
+    18: ('Modelado 3D y texturizado PBR','Noviembre 2024'),
+    19: ('Materiales procedurales','Diciembre 2024'),
+    20: ('Diseño de nivel y ambientación','Marzo 2025'),
+    21: ('Efectos visuales en Unity','Mayo 2025'),
 }
 for item in items:
     item['subtitle'],item['date']=metadata[item['id']]
